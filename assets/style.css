@@ -193,8 +193,10 @@ body {
 	z-index: 1;
 }
 
-.service__price p{
-	font-size: 1.5em;
+.service__price span{
+	display: block;
+	padding: 8px 0;
+	font-size: 1em;
 	font-weight: 500;
 }
 
