@@ -18,18 +18,20 @@
 		<meta name="twitter:site" content="@monCompteTwitter" />
 		<meta name="twitter:title" content="Nina Carducci - Photographe Bordeaux" />
 		<meta name="twitter:description" content="Nina Carducci photographe proche de Bordeaux. Bienvenue sur mon site dédié à la photographie, vous y trouverez mon travail, toutes les informations sur mes prestations et comment me contacter. Au plaisir de travailler avec vous!" />
-		<meta name="twitter:image" content="./assets/images_optimisées/nina.webp" />
+		<meta name="twitter:image" content="/assets/images_optimisées/nina.webp" />
 		<meta name="twitter:url" content="https://nina-carducci.github.io/" />
-		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="./assets/style.css">
+		<link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css" >
+		<link rel="stylesheet" href="/assets/style.css">
+		<!--
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" >
+		-->
+		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" disabled/>
 		<meta charset="UTF-8">
-		<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-		<script src="./assets/maugallery.min.js" defer></script>
-		<script src="./assets/scripts.js" defer></script>
+		<script src="/assets/bootstrap/bootstrap.bundle.min.js" defer ></script>
+		<script src="/assets/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
+		<script src="/assets/maugallery.min.js" defer ></script>
+		<script src="/assets/scripts.js" defer ></script>
 		<script type="application/ld+json">
 			{
 				"@context" : "https://schema.org",
@@ -37,7 +39,7 @@
 				"name" : "Nina Carducci - Photographe",
 				"description" : "Nina Carducci photographe proche de Bordeaux. Bienvenue sur mon site dédié à la photographie, vous y trouverez mon travail, toutes les informations sur mes prestations et comment me contacter. Au plaisir de travailler avec vous!",
 				"url" : "https://nina-carducci.github.io/",
-				"image" : "./assets/images_optimisées/nina.webp",
+				"image" : "https://nina-carducci.github.io/assets/images_optimisées/nina.webp",
 				"telephone" : "05 56 67 78 89",
 				"address": {
 					"@type": "PostalAddress",
@@ -101,15 +103,52 @@
 				<div class="carousel-inner">
 
 					<div class="carousel-item active">
-						<img src="./assets/images_optimisées/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" title="Photo" alt="Un homme de dos marchand sur un passage piéton">
+						
+						<img class="d-block w-100"
+							title="Photo" alt="Un homme de dos marchand sur un passage piéton"
+							sizes="(max-width: 1400px) 100vw, 1400px"
+							srcset="
+							/assets/images_set/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_oysabi_c_scale,w_200.webp 200w,
+							/assets/images_set/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_oysabi_c_scale,w_595.webp 595w,
+							/assets/images_set/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_oysabi_c_scale,w_775.webp 775w,
+							/assets/images_set/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_oysabi_c_scale,w_987.webp 987w,
+							/assets/images_set/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_oysabi_c_scale,w_1203.webp 1203w,
+							/assets/images_set/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_oysabi_c_scale,w_1389.webp 1389w,
+							/assets/images_set/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_oysabi_c_scale,w_1400.webp 1400w"
+							src="/assets/images_set/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_oysabi_c_scale,w_1400.webp" 
+						/>
 					</div>
 
 					<div class="carousel-item">
-						<img src="./assets/images_optimisées/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" title="Photo" alt="Une foule en délire lors d'un concert avec le focus sur deux hommes">
+						
+						<img class="d-block w-100"
+							title="Photo" alt="Une foule en délire lors d'un concert avec le focus sur deux hommes"
+							sizes="(max-width: 1400px) 100vw, 1400px"
+							srcset="
+							/assets/images_set/slider/nicholas-green-nPz8akkUmDI-unsplash_si9myf_c_scale,w_200.webp 200w,
+							/assets/images_set/slider/nicholas-green-nPz8akkUmDI-unsplash_si9myf_c_scale,w_693.webp 693w,
+							/assets/images_set/slider/nicholas-green-nPz8akkUmDI-unsplash_si9myf_c_scale,w_1049.webp 1049w,
+							/assets/images_set/slider/nicholas-green-nPz8akkUmDI-unsplash_si9myf_c_scale,w_1381.webp 1381w,
+							/assets/images_set/slider/nicholas-green-nPz8akkUmDI-unsplash_si9myf_c_scale,w_1400.webp 1400w"
+							src="/assets/images_set/slider/nicholas-green-nPz8akkUmDI-unsplash_si9myf_c_scale,w_1400.webp"
+						/>
+
 					</div>
 
 					<div class="carousel-item">
-						<img src="./assets/images_optimisées/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" title="Photo" alt="Un couple s'embrassant lors d'une cérémonie de mariage">
+						<img class="d-block w-100" 
+							title="Photo" alt="Un couple s'embrassant lors d'une cérémonie de mariage"
+							sizes="(max-width: 1400px) 100vw, 1400px"
+							srcset="
+							/assets/images_set/slider/edward-cisneros-3_h6-1NPDGw-unsplash_kuudtj_c_scale,w_200.webp 200w,
+							/assets/images_set/slider/edward-cisneros-3_h6-1NPDGw-unsplash_kuudtj_c_scale,w_764.webp 764w,
+							/assets/images_set/slider/edward-cisneros-3_h6-1NPDGw-unsplash_kuudtj_c_scale,w_1035.webp 1035w,
+							/assets/images_set/slider/edward-cisneros-3_h6-1NPDGw-unsplash_kuudtj_c_scale,w_1239.webp 1239w,
+							/assets/images_set/slider/edward-cisneros-3_h6-1NPDGw-unsplash_kuudtj_c_scale,w_1398.webp 1398w,
+							/assets/images_set/slider/edward-cisneros-3_h6-1NPDGw-unsplash_kuudtj_c_scale,w_1399.webp 1399w,
+							/assets/images_set/slider/edward-cisneros-3_h6-1NPDGw-unsplash_kuudtj_c_scale,w_1400.webp 1400w"
+							src="/assets/images_set/slider/edward-cisneros-3_h6-1NPDGw-unsplash_kuudtj_c_scale,w_1400.webp"
+						/>
 					</div>
 
 				</div>
@@ -131,7 +170,16 @@
 		<div id="about">
 
 			<div class="picture left">
-				<img src="./assets/images_optimisées/nina.webp" title="Nina Carducci" alt="Porttrait de la photographe Nina Carducci">
+				
+				<img
+					title="Nina Carducci" alt="Porttrait de la photographe Nina Carducci"
+					sizes="(max-width: 555px) 100vw, 555px"
+					srcset="
+					/assets/images_set/nina_dglmmx_c_scale,w_200.webp 200w,
+					/assets/images_set/nina_dglmmx_c_scale,w_504.webp 504w,
+					/assets/images_set/nina_dglmmx_c_scale,w_555.webp 555w"
+					src="/assets/images_set/nina_dglmmx_c_scale,w_555.webp"
+				/>
 			</div>
 
 			<div id="about-me">
@@ -158,16 +206,125 @@
 			<div class="container py-3">
 
 				<div class="gallery" style="display: none">
+					
+					<img data-gallery-tag="Concert" class="gallery-item" 
+						title="Photo" alt="Un artiste sur scène entrain de chanter"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/concert/austin-neill-hgO1wFPXl3I-unsplash_e7gvmg_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/concert/austin-neill-hgO1wFPXl3I-unsplash_e7gvmg_c_scale,w_320.webp 320w,
+						/assets/images_set/gallery/concert/austin-neill-hgO1wFPXl3I-unsplash_e7gvmg_c_scale,w_418.webp 418w,
+						/assets/images_set/gallery/concert/austin-neill-hgO1wFPXl3I-unsplash_e7gvmg_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/concert/austin-neill-hgO1wFPXl3I-unsplash_e7gvmg_c_scale,w_467.webp"
+					/>
 
-					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images_optimisées/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash.webp" title="Photo" alt="Une salle lors d'un concert"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images_optimisées/gallery/entreprises/ali-morshedlou-WMD64tMfc4k-unsplash.webp" title="Photo" alt="Portait d'un homme en tenue professionnel"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images_optimisées/gallery/entreprises/jason-goodman-tHO1_OuKbg0-unsplash.webp" title="Photo" alt="Portait d'une femme dérrière son bureau"/>
-					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images_optimisées/gallery/mariages/hannah-busing-RvF2R_qMpRk-unsplash.webp" title="Photo" alt="Un couple entrain de s'unir lors de leur cérémonie de mariage"/>
-					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images_optimisées/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash.webp" title="Photo" alt="Portait d'un homme"/>
-					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images_optimisées/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash.webp" title="Photo" alt="Un couple lors de leur cérémonie de mariage"/>
-					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images_optimisées/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash.webp" title="Photo" alt="Portait d'une femme"/>
-					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images_optimisées/gallery/concert/austin-neill-hgO1wFPXl3I-unsplash.webp" title="Photo" alt="Un artiste sur scène entrain de chanter"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images_optimisées/gallery/entreprises/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" title="Photo" alt="Portait d'une femme dérrière son bureau"/>
+
+					<img data-gallery-tag="Concert" class="gallery-item" 
+						title="Photo" alt="Une salle lors d'un concert"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_252.webp 252w,
+						/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_299.webp 299w,
+						/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_335.webp 335w,
+						/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_374.webp 374w,
+						/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_409.webp 409w,
+						/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_444.webp 444w,
+						/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/concert/aaron-paul-wnX-fXzB6Cw-unsplash_q6hnrb_c_scale,w_467.webp"
+					/>
+						
+					
+					<img data-gallery-tag="Entreprises" class="gallery-item" 
+						title="Photo" alt="Portait d'un homme en tenue professionnel"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/entreprises/ali-morshedlou-WMD64tMfc4k-unsplash_zbgdtd_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/entreprises/ali-morshedlou-WMD64tMfc4k-unsplash_zbgdtd_c_scale,w_313.webp 313w,
+						/assets/images_set/gallery/entreprises/ali-morshedlou-WMD64tMfc4k-unsplash_zbgdtd_c_scale,w_405.webp 405w,
+						/assets/images_set/gallery/entreprises/ali-morshedlou-WMD64tMfc4k-unsplash_zbgdtd_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/entreprises/ali-morshedlou-WMD64tMfc4k-unsplash_zbgdtd_c_scale,w_467.webp"
+					/>
+					
+					<img data-gallery-tag="Entreprises" class="gallery-item" 
+						title="Photo" alt="Portait d'une femme dérrière son bureau"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/entreprises/jason-goodman-tHO1_OuKbg0-unsplash_pxsofg_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/entreprises/jason-goodman-tHO1_OuKbg0-unsplash_pxsofg_c_scale,w_336.webp 336w,
+						/assets/images_set/gallery/entreprises/jason-goodman-tHO1_OuKbg0-unsplash_pxsofg_c_scale,w_445.webp 445w,
+						/assets/images_set/gallery/entreprises/jason-goodman-tHO1_OuKbg0-unsplash_pxsofg_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/entreprises/jason-goodman-tHO1_OuKbg0-unsplash_pxsofg_c_scale,w_467.webp"
+					/>
+
+					
+					<img data-gallery-tag="Entreprises" class="gallery-item"
+						title="Photo" alt="Portait d'une femme dérrière son bureau"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/entreprises/mateus-campos-felipe-Fsgzm8N0hIY-unsplash_cedlsx_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/entreprises/mateus-campos-felipe-Fsgzm8N0hIY-unsplash_cedlsx_c_scale,w_330.webp 330w,
+						/assets/images_set/gallery/entreprises/mateus-campos-felipe-Fsgzm8N0hIY-unsplash_cedlsx_c_scale,w_433.webp 433w,
+						/assets/images_set/gallery/entreprises/mateus-campos-felipe-Fsgzm8N0hIY-unsplash_cedlsx_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/entreprises/mateus-campos-felipe-Fsgzm8N0hIY-unsplash_cedlsx_c_scale,w_467.webp"
+					/>
+
+					
+					<img data-gallery-tag="Mariages" class="gallery-item" 
+						title="Photo" alt="Un couple entrain de s'unir lors de leur cérémonie de mariage"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/mariages/hannah-busing-RvF2R_qMpRk-unsplash_pw501t_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/mariages/hannah-busing-RvF2R_qMpRk-unsplash_pw501t_c_scale,w_336.webp 336w,
+						/assets/images_set/gallery/mariages/hannah-busing-RvF2R_qMpRk-unsplash_pw501t_c_scale,w_450.webp 450w,
+						/assets/images_set/gallery/mariages/hannah-busing-RvF2R_qMpRk-unsplash_pw501t_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/mariages/hannah-busing-RvF2R_qMpRk-unsplash_pw501t_c_scale,w_467.webp"
+					/>
+
+					<img data-gallery-tag="Mariages" class="gallery-item"
+						title="Photo" alt="Un couple lors de leur cérémonie de mariage"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_245.webp 245w,
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_286.webp 286w,
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_325.webp 325w,
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_358.webp 358w,
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_391.webp 391w,
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_422.webp 422w,
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_450.webp 450w,
+						/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/mariages/jakob-owens-SiniLJkXhMc-unsplash_imt8q2_c_scale,w_467.webp" 
+					/>
+
+					<img data-gallery-tag="Portrait" class="gallery-item" 
+						title="Photo" alt="Portait d'un homme"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash_dhjjww_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash_dhjjww_c_scale,w_261.webp 261w,
+						/assets/images_set/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash_dhjjww_c_scale,w_316.webp 316w,
+						/assets/images_set/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash_dhjjww_c_scale,w_361.webp 361w,
+						/assets/images_set/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash_dhjjww_c_scale,w_405.webp 405w,
+						/assets/images_set/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash_dhjjww_c_scale,w_445.webp 445w,
+						/assets/images_set/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash_dhjjww_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/portrait/ade-tunji-rVkhWWZFAtQ-unsplash_dhjjww_c_scale,w_467.webp"
+					/>
+					
+					<img data-gallery-tag="Portrait" class="gallery-item" 
+						title="Photo" alt="Portait d'une femme"
+						sizes="(max-width: 467px) 100vw, 467px"
+						srcset="
+						/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_200.webp 200w,
+						/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_256.webp 256w,
+						/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_305.webp 305w,
+						/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_347.webp 347w,
+						/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_390.webp 390w,
+						/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_432.webp 432w,
+						/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_465.webp 465w,
+						/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_467.webp 467w"
+						src="/assets/images_set/gallery/portrait/nino-van-prattenburg--443cl1uR_8-unsplash_jan0do_c_scale,w_467.webp"
+					/>
 
 				</div>
 
@@ -295,7 +452,7 @@
 				</div>
 
 				<div class="picture right">
-					<img src="./assets/images_optimisées/camera.webp" title="Photo" alt="Gros plan sur un appareil photo">
+					<img src="/assets/images_optimisées/camera.webp" title="Photo" alt="Gros plan sur un appareil photo">
 				</div>
 
 			</div>
